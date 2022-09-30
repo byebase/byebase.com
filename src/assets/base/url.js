@@ -4,6 +4,8 @@ let [host, tmg] = ['', '', '']
 host = temp.decode('aHR0cHM6Ly9taWRvZmZpY2UuYnllYmFzZS5jb20vbWlkb2ZmaWNlLw==')
 tmg = temp.decode('NTltVFpJcVZVUjBFN2VIVGla')
 
+
+
 export default {
   md5key: tmg,
   login: host + 'account/signin', // 登陆
