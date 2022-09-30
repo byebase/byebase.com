@@ -1,0 +1,31 @@
+{
+  "name": "byebase.com",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "serve": "node --max_old_space_size=10240 node_modules/@vue/cli-service/bin/vue-cli-service.js serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "@vue/babel-preset-jsx": "^1.0.0",
+    "babel-polyfill": "^6.26.0",
+    "browserslist": "^4.8.7",
+    "caniuse-lite": "^1.0.30001028",
+    "core-js": "^2.6.5",
+    "dayjs": "^1.10.4",
+    "file-saver": "^2.0.0",
+    "js-md5": "^0.7.3",
+    "postcss-import": "^12.0.1",
+    "xlsx": "^0.14.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "compression-webpack-plugin": "^3.0.1",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "script-loader": "^0.7.2",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
