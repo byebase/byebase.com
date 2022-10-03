@@ -12,6 +12,6 @@
     ```
 2. Run dev server.
     ```bash
-    npm run server
+    npm run serve
     ```
 Play Well
