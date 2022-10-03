@@ -8,7 +8,7 @@
 ### Steps
 1. Install dependencies.   
     ```bash 
-    npm Install
+    npm install
     ```
 2. Run dev server.
     ```bash
